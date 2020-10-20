@@ -1,0 +1,48 @@
+@import './TopNav.scss';
+
+
+.more-info {
+    width: 100%;
+    text-align: center;
+    color: $color2;
+    font-family: $fontfamily3;
+    
+
+    h4 {
+        font-size: 40px;
+         padding: 3rem 0 1rem;
+         font-weight: 700;
+    }
+
+    p {
+        font-style: italic;
+        padding: 0 0 .5rem;
+    }
+
+    form {
+        width: 100%;
+        
+
+        input {
+            width: 30%;
+            padding: .5rem;
+            font-size: 20px;
+            outline: none;
+        }
+
+        button {
+            width: 10%;
+            font-size: 20px;
+            padding: .5rem;
+            background-color: $color3;
+            color: $color;
+            outline: none;
+        }
+
+        button:hover {
+            background: #FF0099;
+            background: -webkit-linear-gradient(to right, #493250, #FF0099);
+            background: linear-gradient(to right, #493240, #FF0099);
+        }
+    }
+}

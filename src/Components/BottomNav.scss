@@ -1,0 +1,56 @@
+@import './TopNav.scss';
+
+.nav2 {
+    display: flex;
+    background-color: $color3;
+    color: $color;
+    width: 100%;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: right;
+    flex-wrap: nowrap;
+    font-family: $fontfamily;
+     
+    .nav1-sub1 {
+        width: 93%;
+line-height: 35px;
+
+        nav {
+            text-align: right;
+
+            ul {
+                padding-top: .7rem;
+            }
+
+            li {
+                display: inline;
+                padding: 1rem 2rem;
+                
+                a {
+                    color: $color;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: 200;
+                    font-size: 13px;
+                }
+
+                a:hover {
+                    border-bottom: 1px solid $color;
+                }
+            }
+        }
+
+        
+      }
+
+    .arrow {
+        font-size: 30px;
+        font-size: 500;
+        width: 7%;
+        
+        
+    }
+
+
+
+}

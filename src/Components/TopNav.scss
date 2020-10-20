@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap");
+$color: white;
+$color2: #1b262c;
+$color3: #222831;
+$fontfamily: 'Commissioner', sans-serif;
+$fontfamily2: 'Cinzel Decorative', cursive;
+$fontfamily3: 'Port Lligat Slab', serif;
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav1 {
+    width: 100%;
+    display: flex;
+    background-color: #1b262c;
+    font-family: $fontfamily;
+    flex-wrap: nowrap;
+    line-height: 45px;
+
+    .logo {
+        width: 50%;
+
+      a {
+            font-size: 24px;
+            font-weight: 500;
+            color: $color;
+            text-transform: uppercase;
+            text-decoration: none;
+            margin-left: 3rem;
+        }
+    }
+
+    .nav1-sub1 {
+        width: 50%;
+        line-height: 30px;
+
+        nav {
+            text-align: right;
+
+            ul {
+                padding-top: .7rem;
+            }
+
+            li {
+                display: inline;
+                padding: 2rem;
+
+                a {
+                    color: $color;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: 200;
+                    font-size: 13px;
+                }
+
+                a:hover {
+                  border-bottom: 1px solid $color;
+                }
+
+                
+
+            }
+        }
+
+        
+
+    }
+
+    
+}

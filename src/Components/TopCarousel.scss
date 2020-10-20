@@ -1,0 +1,38 @@
+@import "~bootstrap/scss/bootstrap";
+@import './TopNav.scss';
+$color4: #0000007d;
+
+    img {
+        height: 550px;
+    }
+
+
+    .Caption {
+        width: 50%;
+        background-color: $color4;
+        border-radius: 10px;
+        margin: 0 10%;
+
+        
+        h3 {
+           padding-bottom: 1rem;
+        }
+
+        a {
+           color: $color; 
+           background-color: $color3;
+           text-decoration: none;
+           padding: .5rem 1rem;
+           margin: 1rem 0;
+           border-radius: 10px;
+           border: outset 1px $color;
+        }
+
+        p {
+            padding: .8rem 0;
+        }
+
+        
+    }
+
+

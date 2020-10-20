@@ -1,0 +1,85 @@
+@import './TopNav.scss';
+
+
+
+.trendwrapper {
+    width: 100%;
+    text-align: center;
+    margin: 8rem 0;
+    
+    h3 {
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: $fontfamily2;
+        word-wrap: .3rem;
+    }
+
+    button {
+        width: 80%;
+        font-size: 14px;
+        border: none;
+        padding: 1.5rem 0;
+        text-transform: uppercase;
+        margin-top: 4rem;
+        background-color: $color2;
+        color: $color;
+        font-family: $fontfamily3;
+        font-weight: 900;
+        letter-spacing: .5px;
+        outline: none;
+    }
+
+    button:hover {
+       background: #FF0099;
+       background: -webkit-linear-gradient(to right, #493240, #FF0099);
+       background: linear-gradient(to right, #493240, #FF0099);
+    }
+
+    .trendinnerwrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5rem;
+        padding: 0;
+
+        .trend-content {
+            width: 30%;
+            font-family: $fontfamily3;
+            padding-bottom: 2rem;
+
+
+            .trend-img {
+                width: 80%;
+                margin: 0 10% 2rem 10%;
+                height: 15rem;
+                border: 1px solid black;
+                
+            }
+
+            .trend-img:hover {
+               -webkit-transform: scale(1.05);
+                transform: scale(1.05);
+                
+            }
+
+            h5 {
+                font-size: 19px;
+                font-style: italic;
+            }
+
+            h6 {
+                font-size: 23px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+
+            
+
+        }
+    }
+
+    
+}
+
