@@ -14,7 +14,7 @@ class BottomNav extends Component {
             <div className="nav1-sub1">
              <nav>
                <ul>
-                   <li><Link to='/latest-tech'>Latest in Tech</Link></li>
+                   <li><Link to='/tech-latest'>Latest in Tech</Link></li>
                    <li><Link to='/News'>News</Link></li>
                    <li><Link to='/signup'>Signup</Link></li>
                </ul>
