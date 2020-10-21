@@ -33,6 +33,8 @@ class AddPost extends Component{
                 </form>
 
                 }
+
+                <hr />
             </div>
 
 

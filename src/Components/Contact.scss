@@ -1,0 +1,66 @@
+@import './TopNav.scss';
+
+
+
+    .contact {
+        width: 100%;
+        text-align: center;
+        font-family: $fontfamily3;
+        
+
+        h4 {
+            font-size: 70px;
+            font-weight: 900;
+            padding: 4rem 0 0;
+        }
+
+        p {
+            font-size: 17px;
+            padding: 0 0 3rem;
+        }
+
+        form {
+            width: 100%;
+            outline: none;
+
+            input {
+                width: 40%;
+                font-size: 22px;
+                padding: .4rem;
+                margin-left: 1rem;
+            }
+
+            .textarea {
+                width: 100%;
+                margin-top: 1.5rem;
+
+                input {
+                    width: 60%;
+                    padding-bottom: 40vh;
+
+                }
+
+            }
+
+            button {
+                margin: 1.5rem 0 3rem;
+                width: 60%;
+                font-size: 22px;
+                text-transform: uppercase;
+                background-color: $color2;
+                color: $color;
+                padding: .6rem;
+                
+            }
+
+            button:hover {
+                 background: #FF0099;
+                 background: -webkit-linear-gradient(to right, #493250, #FF0099);
+                 background: linear-gradient(to right, #493240, #FF0099);
+            }
+        }
+
+        
+        
+    }
+
