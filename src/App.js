@@ -7,6 +7,7 @@ import Contact from './Components/Contact';
 import About from './Components/About';
 import TechLatest from './Components/TechLatest';
 import Post from './Components/Post';
+import Signup from './Components/Signup';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Router>
 
      <Switch>
+            <Route exact path='/signup' component = {Signup} />
             <Route exact path='/create-post' component = {Post} />
            <Route exact path='/tech-latest' component = {TechLatest} />
            <Route exact path='/aboutus' component = {About} />  

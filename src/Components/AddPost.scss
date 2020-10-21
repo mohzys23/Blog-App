@@ -3,17 +3,18 @@
 .post-wrapper {
     width: 100%;
     text-align: center;
-    font-family: $fontfamily2;
+    font-family: $fontfamily3;
 
     h4 {
-        font-weight: 700;
+        font-size: 60px;
+        font-weight: 900;
         padding: 5rem 0 3rem;
     }
 
     .add-post {
         width: 60%;
         text-align: left;
-        font-size: 14px;
+        font-size: 18px;
         margin: 2rem 0 3rem;
 
 
@@ -63,8 +64,7 @@
         hr {
             width: 100%;
             margin-left: 30%;
-            background-color: $color2;
-            margin-top: 2rem;
+            margin-top: 5rem;
         }
     }
 }
