@@ -37,7 +37,7 @@ class Signup extends Component {
                 </div>
 
                 <div>
-                    <Subscription />
+                    
                     <Footer />
                 </div>
             </div>
