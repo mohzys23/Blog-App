@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import AddPost from './AddPost';
 import Footer from './Footer';
+import Subscription from './Subscription';
 
 
 
@@ -15,6 +16,10 @@ class TechLatest extends Component {
 
                 <div>
                     <AddPost />
+                </div>
+
+                <div>
+                    <Subscription />
                 </div>
 
 
