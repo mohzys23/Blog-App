@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link  } from "react-router-dom";
 import BottomNav from './BottomNav'
-import Subscription from './Subscription'
 import TopNav from './TopNav'
 import Footer from './Footer';
 

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import BottomNav from './BottomNav';
 import Footer from './Footer';
 import './Signup.scss';
-import Subscription from './Subscription';
 import TopNav from './TopNav';
 
 
