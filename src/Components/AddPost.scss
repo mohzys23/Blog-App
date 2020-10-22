@@ -41,9 +41,10 @@
                     margin-left: .8rem;
                     margin-top: .8rem;
                     padding-left: .4rem;
-                }
-            }
 
+                }
+
+            }
             button {
                 margin-top: 1.5rem;
                 width: 15%;
@@ -66,5 +67,34 @@
             margin-left: 30%;
             margin-top: 5rem;
         }
+
+
+       
     }
+
+     .section-post {
+         width: 30%;
+         text-align: center;
+         height: 40vh;
+         border: 1px solid black;
+
+
+         img {
+             width: 100%;
+             height: 8rem;
+             border: 1px solid black;
+         }
+
+         p {
+             padding: 1rem 0;
+         }
+
+         a {
+             color: #FF0099;
+         }
+
+     }
+
+     
+    
 }
