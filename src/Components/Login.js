@@ -28,7 +28,7 @@ class Login extends Component {
                     <input type="password" placeholder="Enter password" />
                     <br />
                     <button>Signup</button>
-                    <p>Already have an account? <Link to='./signup'>Signup</Link></p>
+                    <p>Already have an account? <Link to='tech-latest'>Login</Link></p>
 
                 </form>
 <hr />
