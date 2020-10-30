@@ -4,6 +4,7 @@
     width: 100%;
     text-align: center;
     font-family: $fontfamily3;
+    margin-bottom: 5rem;
 
     h4 {
         font-size: 60px;
@@ -27,40 +28,8 @@
             outline-offset: 1px solid white;
         }
 
-        form {
-            width: 100%;
-            font-family: $fontfamily3;
-            font-size: 17px;
-            font-weight: 600;
-
-            label {
-                margin-left: 5rem;
 
 
-                input {
-                    margin-left: .8rem;
-                    margin-top: .8rem;
-                    padding-left: .4rem;
-
-                }
-
-            }
-            button {
-                margin-top: 1.5rem;
-                width: 15%;
-                letter-spacing: .1rem;
-                border: none;
-                text-transform: uppercase;
-            }
-
-            button:hover {
-                 background: #FF0099;
-                 background: -webkit-linear-gradient(to right, #493250, #FF0099);
-                 background: linear-gradient(to right, #493240, #FF0099);
-            }
-
-
-        }
 
         hr {
             width: 100%;
@@ -72,26 +41,71 @@
        
     }
 
+
+    form {
+        width: 100%;
+        font-family: $fontfamily3;
+        font-size: 17px;
+        font-weight: 600;
+
+        label {
+            margin-left: 5rem;
+
+
+            input {
+                margin-left: .8rem;
+                margin-top: .8rem;
+                padding-left: .4rem;
+
+            }
+
+            .textarea {
+                height: 10vh;
+            }
+
+        }
+
+        button {
+            margin-top: 1.5rem;
+            width: 15%;
+            letter-spacing: .1rem;
+            border: none;
+            text-transform: uppercase;
+        }
+
+        button:hover {
+            background: #FF0099;
+            background: -webkit-linear-gradient(to right, #493250, #FF0099);
+            background: linear-gradient(to right, #493240, #FF0099);
+        }
+
+
+    }
+
      .section-post {
-         width: 30%;
+         margin-left: 55%;
+         width: 60%;
          text-align: center;
-         height: 40vh;
+         height: 60vh;
          border: 1px solid black;
+         position: relative;
+         margin-bottom: 30rem;
+        
 
 
          img {
              width: 100%;
-             height: 8rem;
+             height: 60vh;
              border: 1px solid black;
          }
 
          p {
-             padding: 1rem 0;
+             padding: 2rem 0 0;
+             font-size: 18px;
+             
          }
 
-         a {
-             color: #FF0099;
-         }
+         
 
      }
 

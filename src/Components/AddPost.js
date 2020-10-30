@@ -49,8 +49,8 @@ class AddPost extends Component{
                 </form> :
                 <div className="section-post">
                     <img src={this.state.image} alt={this.state.title} />
-                    <p>{this.state.title}</p>
-                    <Link to="/post">Read More...</Link>
+                    <h1>{this.state.title}</h1>
+                    <p>{this.state.post}</p>
                 </div>
                 }
 
