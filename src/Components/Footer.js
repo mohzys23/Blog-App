@@ -16,7 +16,7 @@ class Footer extends Component{
                    <li><Link to='/privacy-policy'>Privacy Policy</Link></li>
                    <li><Link to='/aboutus'>About-us</Link></li>
                    <li><Link to='/learn-tech'>Learn Tech</Link></li>
-                    <li className="footer-logo"><Link to="/">Blog</Link></li>
+                    <li className="footer-logo"><Link to="/">TBlog</Link></li>
                    <li><Link to='/tech-books'>Tech Books</Link></li>
                    <li><Link to='/meet-team'>Meet Team</Link></li>
                    <li><Link to='/contact'>Contact</Link></li>

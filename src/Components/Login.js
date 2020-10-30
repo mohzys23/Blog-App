@@ -3,6 +3,7 @@ import { Link  } from "react-router-dom";
 import BottomNav from './BottomNav'
 import TopNav from './TopNav'
 import Footer from './Footer';
+import AddPost from './AddPost';
 
 class Login extends Component {
 
@@ -27,7 +28,7 @@ class Login extends Component {
                     <br />
                     <input type="password" placeholder="Enter password" />
                     <br />
-                    <button>Login</button>
+                    <button onClick={AddPost}>Login</button>
                     <p>Already have an account? <Link to='signup'>Signup</Link></p>
 
                 </form>

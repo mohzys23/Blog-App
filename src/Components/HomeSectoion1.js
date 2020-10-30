@@ -97,7 +97,6 @@ class HomeSection1 extends Component {
                    <div className="trend-img"><img src={Samsung} alt="" /></div>
                    <div className="trend-text">
                   <h5>Samsung has regained the top spot in global smartphone shipments in the third quarter of 2020, multiple research reports confirm. The South Korean company shipped nearly 80 million units in Q3, pushing China's Huawei (which shipped close to 50 million units) to the second spot ending its short-lived reign. Xiaomi beat Apple for the first time to enter the top three with close to 47 million units shipped. Apple lost momentum in the third quarter that ended in September and dropped to 42 million units despite robust growth in iPhone 11 sales, the reports say. The setback has been largely attributed to the delay in launching the iPhone 12 series that started shipping late in October.
-
 The third quarter shipments indicate a strong recovery in global smartphone sales, according to IDC, Counterpoint, and Canalys reports. They unanimously agree that while the global smartphone shipments declined by close to 1 percent year-on-year, the shipments recovered significantly from the last quarter slump due to the import, export, and manufacturing challenges caused by the worldwide spread of COVID-19.</h5>
                   <h6>Samsung Regains Top Spot in Q3 Global Smartphone Shipments, Huawei Drops to Second and Xiaomi is Third: Analyst Reports</h6>
                   <p>29/10/2020</p>                  

@@ -9,7 +9,7 @@ class TopNav extends Component {
         return (
             <div className="nav1">
                     <div className="logo">
-                <Link to="/">Blog</Link>
+                <Link to="/">TBlog</Link>
             </div>
             <div className="nav1-sub1">
             <nav>
