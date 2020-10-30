@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link }  from "react-router-dom";
 import './TopNav.scss';
+import Toggle from './Toggle';
 
 
 class TopNav extends Component {
@@ -15,7 +16,6 @@ class TopNav extends Component {
                <ul>
                    <li><Link to='/'>Home</Link></li>
                    <li><Link to='/login'>Login</Link></li>
-
                </ul>
            </nav> 
             </div>
